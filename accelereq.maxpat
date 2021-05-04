@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 77.0, 1852.0, 939.0 ],
+		"rect" : [ 42.0, 85.0, 1852.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -76,7 +76,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1288.0, 1056.166748, 246.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1055.5, 17.0, 219.0, 29.0 ],
+					"presentation_rect" : [ 1052.0, 17.0, 219.0, 29.0 ],
 					"style" : "",
 					"text" : "Instructions",
 					"textjustification" : 1
@@ -102,16 +102,16 @@
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-51",
-					"linecount" : 60,
+					"linecount" : 62,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1288.0, 1097.333252, 153.0, 834.0 ],
+					"patching_rect" : [ 1288.0, 1097.333252, 157.0, 862.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 31,
-					"presentation_rect" : [ 989.5, 48.0, 351.0, 434.0 ],
+					"presentation_linecount" : 34,
+					"presentation_rect" : [ 989.5, 48.0, 351.0, 476.0 ],
 					"style" : "",
-					"text" : "1. Turn on audio in Max\n\n2.  Turn on looping in the audio player in the upper left corner and play audio - you can change the source or add your own audio file\n\n2. If the Microbit is set up correctly and connected, you should see the XY Pad and the two EQs responding to movement (LEDs facing upwards, USB port to the left for correct orientation). If no Microbit is connected, press the XY Pad Active toggle to test the patch and use a mouse to adjust the controls. \n\n3. To adjust smoothing of the XY data, use the potentiometer - turn anti-clockwise for more smoothing (only useful with a Microbit connected).\n\n4. Press button A or B on the Microbit or the toggles below the EQs to freeze an EQ's current state - moving the Microbit will not affect the frozen EQ's interpolation. Pressing the button again will unfreeze the EQ.\n\n5. To edit the EQ presets, press Button C\n\n6. To select a preset to edit, rotate the Currently Editted Preset dial. Adjust the X and Y EQ bands - to save the editted preset, press the Store Current Preset button.\n\n7. To save the presets for future use, use the Save Presets to File - this will overwrite the last saved presets and load them on patch start. To prevent overwriting, store the original xEQ and yEQ Presets in a different folder."
+					"text" : "1. Turn on audio in Max\n\n2.  Turn on looping in the audio player in the upper left corner and play audio - you can change the source or add your own audio file\n\n3. If the micro:bit is set up correctly and connected, you should see the XY Pad and the two EQs responding to movement (LEDs facing upwards, USB port to the left for correct orientation). If no micro:bit is connected, press the XY Pad Active toggle to test the patch and use a mouse to adjust the controls. \n\n4. To adjust smoothing of the XY data, use the potentiometer or the slider in the XY Accelerometer Data section - turn anti-clockwise for more smoothing (only useful with a micro:bit connected).\n\n5. Press button A or B on the micro:bit or the toggles below the EQs to freeze an EQ's current state - moving the Microbit will not affect the frozen EQ's interpolation. Pressing the button again will unfreeze the EQ.\n\n6. To edit the EQ presets, press Button C or the toggle in the Preset editing and Saving section.\n\n7. To select a preset to edit, rotate the Currently Editted Preset dial. Adjust the X and Y EQ bands - to save the editted preset, press the Store Current Preset button.\n\n8. To save the presets for future use, use the Save Presets to File - this will overwrite the last saved presets and load them on patch start. To prevent overwriting, store the original xEQ and yEQ Presets in a different folder."
 				}
 
 			}
@@ -1196,7 +1196,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 892.5, 283.5, 73.0, 22.0 ],
 									"style" : "",
-									"text" : "2.732283"
+									"text" : "2.826772"
 								}
 
 							}
@@ -1389,7 +1389,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 352.0, 275.0, 73.0, 22.0 ],
 									"style" : "",
-									"text" : "2.952756"
+									"text" : "3.015748"
 								}
 
 							}
@@ -1906,14 +1906,14 @@
 						"live.gain~" : [ -15.832048 ],
 						"metroToggle" : [ 1 ],
 						"padActiveToggle" : [ 0 ],
-						"smoothingDial" : [ 0.087302 ],
-						"xFiltergraph" : [ 4, 0, 5, 1, 0, 0, 297.552856, 1.091623, 2.049877, 1, 5, 1, 0, 0, 104.61499, 0.974013, 1.71461, 2, 5, 1, 0, 0, 763.832764, 1.495471, 1.013941, 3, 5, 1, 0, 0, 5866.015137, 1.059455, 1.032468 ],
-						"yFiltergraph" : [ 2, 0, 2, 1, 0, 0, 76.132446, 0.945952, 1.037639, 1, 1, 1, 0, 0, 5800.932617, 1.10344, 2.807493 ]
+						"smoothingDial" : [ 0.095238 ],
+						"xFiltergraph" : [ 4, 0, 5, 1, 0, 0, 315.773499, 0.993245, 2.104831, 1, 5, 1, 0, 0, 115.645615, 1.051113, 1.5685, 2, 5, 1, 0, 0, 779.564514, 0.999512, 0.944314, 3, 5, 1, 0, 0, 5656.487305, 1.039631, 1.068183 ],
+						"yFiltergraph" : [ 2, 0, 2, 1, 0, 0, 64.036865, 0.966315, 0.928401, 1, 1, 1, 0, 0, 3968.788086, 1.116316, 3.040718 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u534001706"
+					"varname" : "u690000536"
 				}
 
 			}
@@ -2872,7 +2872,7 @@
 					"patching_rect" : [ 293.833313, 140.0, 256.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 247.0, 48.0, 360.0, 180.0 ],
-					"setfilter" : [ 3, 5, 1, 0, 0, 5866.015137, 1.059455, 1.032468, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2, 5, 1, 0, 0, 763.832764, 1.495471, 1.013941, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 5, 1, 0, 0, 104.61499, 0.974013, 1.71461, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 5, 1, 0, 0, 297.552856, 1.091623, 2.049877, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 3, 5, 1, 0, 0, 5656.487305, 1.039631, 1.068183, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2, 5, 1, 0, 0, 779.564514, 0.999512, 0.944314, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 5, 1, 0, 0, 115.645615, 1.051113, 1.5685, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 5, 1, 0, 0, 315.773499, 0.993245, 2.104831, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"style" : "",
 					"varname" : "xFiltergraph"
 				}
@@ -2917,7 +2917,7 @@
 					"patching_rect" : [ 265.833313, 319.0, 256.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 625.166748, 48.0, 360.0, 180.0 ],
-					"setfilter" : [ 1, 1, 1, 0, 0, 5800.932617, 1.10344, 2.807493, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 2, 1, 0, 0, 76.132446, 0.945952, 1.037639, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 1, 1, 1, 0, 0, 3968.788086, 1.116316, 3.040718, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 2, 1, 0, 0, 64.036865, 0.966315, 0.928401, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"style" : "",
 					"varname" : "yFiltergraph"
 				}
@@ -4610,9 +4610,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-28::obj-35" : [ "[5]", "Level", 0 ],
 			"obj-28::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-4" : [ "live.gain~", "live.gain~", 0 ]
+			"obj-4" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-28::obj-35" : [ "[5]", "Level", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

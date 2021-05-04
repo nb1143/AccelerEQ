@@ -1,3 +1,5 @@
+#micro:bit code for the AccelerEQ system - click Flash after connecting the micro:bit via USB
+
 from microbit import *
 import math #imports the microbit math module from the native library
 
@@ -41,8 +43,9 @@ while True: #always runs and checks the conditional statements below
     z = accelerometer.get_z()
 
     # Button behaviour definitions:
-    # Send a 1 on channels 20-22 if respective button is pressed, and a 0 if it isn't.
+    # Send a 1 if respective button is pressed, and a 0 if it isn't.
     # This is done by comparing the current state of the button to its previous checked state.
+    # MIDI CC#: A - 20, B - 21, C - 22
     if a is True and lastA is False:
         midiControlChange(0, 20, 1)
     elif a is False and lastA is True:
@@ -66,6 +69,7 @@ while True: #always runs and checks the conditional statements below
     # if statement running only if the two values are not equal.
     # The pot value is scaled from 0 to 1023 to 0 to 127 so that it can be sent as a MIDI CC message.
     # To ensure that the final value is an integer, the result is floored.
+    # MIDI CC#: 23
     if pot != lastPot:
         potValue = math.floor(pot / 1024 * 127)
         midiControlChange(0, 23, potValue)
@@ -76,6 +80,7 @@ while True: #always runs and checks the conditional statements below
     # Value is scaled from -2048 to 2048 to 0 to 127.
     # First, the +1024 is added to account for movement.
     # The modulus of the result is taken to get a positive number using math.fabs, and the final result is floored.
+    # MIDI CC#: x - 24, y - 25, z - 26(not used)
     if x != lastx:
         mod_x = math.floor(math.fabs(((x + 1024) / 2048 * 127)))
         midiControlChange(0, 24, mod_x)
