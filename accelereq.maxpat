@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 42.0, 85.0, 1852.0, 939.0 ],
+		"rect" : [ 35.0, 85.0, 1381.0, 930.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -91,7 +91,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 55.833145, 654.5, 87.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 65.0, 225.5, 83.0, 20.0 ],
+					"presentation_rect" : [ 71.083282, 225.5, 83.0, 20.0 ],
 					"style" : "",
 					"text" : "Toggle Audio",
 					"textjustification" : 1
@@ -102,11 +102,11 @@
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-51",
-					"linecount" : 62,
+					"linecount" : 59,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1288.0, 1097.333252, 157.0, 862.0 ],
+					"patching_rect" : [ 1288.0, 1097.333252, 170.0, 821.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 34,
 					"presentation_rect" : [ 989.5, 48.0, 351.0, 476.0 ],
@@ -1196,7 +1196,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 892.5, 283.5, 73.0, 22.0 ],
 									"style" : "",
-									"text" : "2.826772"
+									"text" : "2.480315"
 								}
 
 							}
@@ -1389,7 +1389,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 352.0, 275.0, 73.0, 22.0 ],
 									"style" : "",
-									"text" : "3.015748"
+									"text" : "3.645669"
 								}
 
 							}
@@ -1906,14 +1906,14 @@
 						"live.gain~" : [ -15.832048 ],
 						"metroToggle" : [ 1 ],
 						"padActiveToggle" : [ 0 ],
-						"smoothingDial" : [ 0.095238 ],
-						"xFiltergraph" : [ 4, 0, 5, 1, 0, 0, 315.773499, 0.993245, 2.104831, 1, 5, 1, 0, 0, 115.645615, 1.051113, 1.5685, 2, 5, 1, 0, 0, 779.564514, 0.999512, 0.944314, 3, 5, 1, 0, 0, 5656.487305, 1.039631, 1.068183 ],
-						"yFiltergraph" : [ 2, 0, 2, 1, 0, 0, 64.036865, 0.966315, 0.928401, 1, 1, 1, 0, 0, 3968.788086, 1.116316, 3.040718 ]
+						"smoothingDial" : [ 0.108075 ],
+						"xFiltergraph" : [ 4, 0, 5, 1, 0, 0, 3610.982422, 0.095047, 5.488752, 1, 5, 1, 0, 0, 3565.731934, 10.963219, 2.190372, 2, 5, 1, 0, 0, 2086.026855, 2.507257, 0.950762, 3, 5, 1, 0, 0, 1093.933228, 5.193173, 5.474268 ],
+						"yFiltergraph" : [ 2, 0, 2, 1, 0, 0, 1576.831055, 1.355453, 1.867113, 1, 1, 1, 0, 0, 11326.53125, 1.363525, 0.783301 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u690000536"
+					"varname" : "u680000883"
 				}
 
 			}
@@ -2872,7 +2872,7 @@
 					"patching_rect" : [ 293.833313, 140.0, 256.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 247.0, 48.0, 360.0, 180.0 ],
-					"setfilter" : [ 3, 5, 1, 0, 0, 5656.487305, 1.039631, 1.068183, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2, 5, 1, 0, 0, 779.564514, 0.999512, 0.944314, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 5, 1, 0, 0, 115.645615, 1.051113, 1.5685, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 5, 1, 0, 0, 315.773499, 0.993245, 2.104831, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 3, 5, 1, 0, 0, 1093.933228, 5.193173, 5.474268, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2, 5, 1, 0, 0, 2086.026855, 2.507257, 0.950762, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 5, 1, 0, 0, 3565.731934, 10.963219, 2.190372, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 5, 1, 0, 0, 3610.982422, 0.095047, 5.488752, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"style" : "",
 					"varname" : "xFiltergraph"
 				}
@@ -2917,7 +2917,7 @@
 					"patching_rect" : [ 265.833313, 319.0, 256.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 625.166748, 48.0, 360.0, 180.0 ],
-					"setfilter" : [ 1, 1, 1, 0, 0, 3968.788086, 1.116316, 3.040718, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 2, 1, 0, 0, 64.036865, 0.966315, 0.928401, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 1, 1, 1, 0, 0, 11326.53125, 1.363525, 0.783301, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 2, 1, 0, 0, 1576.831055, 1.355453, 1.867113, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"style" : "",
 					"varname" : "yFiltergraph"
 				}
@@ -4610,9 +4610,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-28::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-28::obj-35" : [ "[5]", "Level", 0 ],
 			"obj-4" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-28::obj-35" : [ "[5]", "Level", 0 ]
+			"obj-28::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -4647,14 +4647,14 @@
 			}
 , 			{
 				"name" : "xEQpresets.json",
-				"bootpath" : "D:/Google Drive - University of York/Interfacing/Max Project",
+				"bootpath" : "D:/Google Drive - University of York/Interfacing/AccelerEQ",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yEQpresets.json",
-				"bootpath" : "D:/Google Drive - University of York/Interfacing/Max Project",
+				"bootpath" : "D:/Google Drive - University of York/Interfacing/AccelerEQ",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
